@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <h1>My Coupons</h1>
+  <link rel = "stylesheet"
+   type = "text/css"
+   href = "style.css" />
+</head>
+
+<body  align="center">
+  <button id="myBtn">
+  <div class="boxed1">
+    <center><div class="inside">
+      <div class="box">
+        <div class="box-row">
+          <div class="box-cell box1">
+            <img src="https://cdn4.iconfinder.com/data/icons/flat-brand-logo-2/512/nike-512.png" width=100px>
+            <h2 font-size=300px text-align="middle">10% off</h2>
+          </div>
+          <div class="box-cell box2" align="left">
+            <div>Date: 20/5/2019</div>
+            <div>Code: h7df3d2</div>
+            <div>Product: Nike</div>
+            <div>Expires: 20/8/2019</div>
+          </div>
+          <div class="box-cell box3">
+            <img src="https://image.flaticon.com/icons/svg/1363/1363989.svg" width=120px align="middle">
+          </div>
+        </div>
+      </div>
+    </div></center>
+  </div>
+</button>
+
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p><img src="https://api.qrserver.com/v1/create-qr-code/?data=h7df3d2&size=220x220&margin=0" width=700px></p>
+    <h1>Nike 10% Off!</h1>
+    <h1>Enjoy!</h2>
+  </div>
+  <script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+
+
+</div>
+<button id="myBtn">
+  <div class="boxed2">
+    <center><div class="inside">
+      <div class="box">
+        <div class="box-row">
+          <div class="box-cell box1">
+            <img src="https://moleculartestinglabs.com/wp-content/uploads/sites/19/2015/12/Adidas-Logo-200x200.png" width=100px align="middle">
+            <h2>20% off</h2>
+          </div>
+          <div class="box-cell box2" align="left">
+            <div>Date: 15/5/2019</div>
+            <div>Code: h7fn3e4</div>
+            <div>Product: Adidas</div>
+            <div>Expires: 15/8/2019</div>
+          </div>
+          <div class="box-cell box3">
+            <img src="https://image.flaticon.com/icons/svg/1363/1363989.svg" width=120px align="middle">
+          </div>
+        </div>
+      </div>
+      </div></center>
+  </div>
+</button>
+
+<button id="myBtn">
+  <div class="boxed3">
+    <center><div class="inside">
+      <div class="box">
+        <div class="box-row">
+          <div class="box-cell box1">
+            <img src="https://www.freepnglogos.com/uploads/new-balance-png-logo/womens-stylish-shoes-new-balance-png-logo-1.png" width=100px align="middle">
+            <h2 margin:10 !important>30% off</h2>
+          </div>
+          <div class="box-cell box2" align="left">
+            <div>Date: 10/5/2019</div>
+            <div>Code: h7ae3d1</div>
+            <div>Product: N Balance</div>
+            <div>Expires: 10/8/2019</div>
+          </div>
+          <div class="box-cell box3">
+            <img src="https://image.flaticon.com/icons/svg/1363/1363989.svg" width=120px align="middle">
+          </div>
+        </div>
+      </div>
+      </div></center>
+  </div>
+</button>
+
+</body>
+
+</html>
